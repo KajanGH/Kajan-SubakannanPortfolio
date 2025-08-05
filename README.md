@@ -87,69 +87,83 @@
 
 <!-- ─────────────────────────── IRIS ─────────────────────────── -->
 <div class="bento">
-  <img src="assets/images/projects/iris.jpg"
-       alt="IRIS doorbell prototype">
+  <img src="assets/images/projects/iris.jpg" alt="IRIS doorbell prototype">
   <h3>IRIS – Accessible Smart Doorbell</h3>
-  <p><em>ML&nbsp;&amp;&nbsp;Systems-Integration Lead · Master’s Research (Oct&nbsp;2024 – Jun&nbsp;2025)</em></p>
+  <p><em>ML & Systems-Integration Lead · Master’s Research (Oct 2024 – Jun 2025)</em></p>
   <ul>
-    <li>Inclusive hardware + AI design: smart-doorbell prototype delivers real-time visitor descriptions &amp; RFID ID on a Raspberry Pi 4B inside a weather-proof PETG enclosure.</li>
-    <li>Engineered a <strong>&lt;1&nbsp;s</strong> multimodal vision-language pipeline (YOLOv8 + GPT-4o) on constrained hardware, proving low-latency analytics feasibility.</li>
-    <li>Iteratively refined tactile Braille controls, audio UX &amp; sustainability strategy with RNIB user panels — met ISO 24920 accessibility spec.</li>
+    <li>Inclusive hardware + AI design: Pi-based prototype delivers real-time visitor descriptions &amp; RFID ID in a weather-proof PETG housing.</li>
+    <li><strong>&lt;1 s</strong> multimodal V-L pipeline (YOLOv8 + GPT-4o) proves low-latency edge analytics feasibility.</li>
+    <li>Iterated tactile Braille controls, audio UX &amp; sustainability strategy with RNIB panels — met ISO 24920 accessibility spec.</li>
     <li>Authored a 200-page break-even &amp; LCA report translating architecture into a year-1 profitability case.</li>
   </ul>
 </div>
 
 <!-- ─────────────────── Monotone Operator DL for QSM ─────────── -->
 <div class="bento">
-  <img src="assets/images/projects/qsm.gif"
-       alt="QSM heat-map">
+  <img src="assets/images/projects/qsm.gif" alt="QSM heat-map">
   <h3>Monotone Operator DL for QSM</h3>
-  <p><em>Undergrad Research · UCL Bioengineering (Sep&nbsp;2023 – May&nbsp;2024)</em> ·
+  <p><em>Undergrad Research · UCL Bioengineering (Sep 2023 – May 2024)</em> ·
      <a href="assets/papers/monotone_qsm.pdf" target="_blank" rel="noopener">View&nbsp;paper (PDF)</a></p>
   <ul>
-    <li>Applied a Monotone-Operator Learning framework to solve the ill-posed dipole-inversion problem, beating iterative methods on memory <em>and</em> accuracy.</li>
-    <li>Implemented 3-D convolutions, k-space transforms &amp; FFTs in PyTorch for accelerated reconstruction.</li>
+    <li>Developed an advanced Python QSM signal model to visualise brain susceptibility in 3-D, revolutionising MRI accuracy.</li>
+    <li>Explored optimisation algorithms (gradient descent, conjugate gradients) to improve convex optimisation inside the DL framework.</li>
+    <li>Extended the MODL framework to full 3-D reconstruction with parallel computation in PyTorch.</li>
+    <li>Tuned hyper-parameters, applied transfer learning &amp; cross-validation for maximal reconstruction fidelity.</li>
+    <li>Compiled comprehensive documentation &amp; visuals for future conference presentation.</li>
   </ul>
 </div>
 
 <!-- ──────────────── National Demographic Data App ───────────── -->
 <div class="bento">
-  <h3>National Demographic Data App</h3>
-  <p><em>Lead Engineer (Sep&nbsp;2023 – May&nbsp;2024)</em></p>
+  <h3>Urban Intelligence – National Demographic Data App</h3>
+  <p><em>Lead Engineer (Sep 2023 – present)</em></p>
   <ul>
-    <li>Built an analytics platform with geo-spatial visualisation, time-series forecasting &amp; a Customer Potential Index to steer ad-spend.</li>
-    <li>Delivered secure REST API &amp; ran MoSCoW-prioritised sprints for rapid iteration.</li>
+    <li>Leading a 4-person team building a Python/JS analytics web app and REST API.</li>
+    <li>Geo-spatial visualisation &amp; time-series forecasting optimise marketing campaigns.</li>
+    <li>REST API exposes datasets &amp; analytics for third-party developers.</li>
   </ul>
 </div>
 
 <!-- ──────────────────── GreenChain Hackathon ─────────────────── -->
 <div class="bento">
   <h3>GreenChain – Lloyds Bank Reboot Hackathon</h3>
-  <p><em>Business &amp; Design Lead · Top 5 / 50 teams · Jun&nbsp;2023</em></p>
-  <p>Modelled subscription economics for supply-chain emissions tracking, aligning incentives with green-finance metrics and anticipating regulatory-driven capital flows.</p>
+  <p><em>Business & Design Lead · Top 5 / 50 teams · Jun 2023</em></p>
+  <ul>
+    <li>Conceived SME-focused platform to track &amp; optimise supply-chain emissions for net-zero goals.</li>
+    <li>Crafted strategic subscription model with value-added sustainability consulting &amp; audit services.</li>
+  </ul>
 </div>
 
 <!-- ──────────────── HTCTW Air-Pollution Project ─────────────── -->
 <div class="bento">
   <h3>HTCTW – Urban Air-Pollution Solutions</h3>
-  <p><em>Engineering Design &amp; Creative Lead · Jun&nbsp;2023</em></p>
-  <p>Devised quantifiable frameworks to tackle urban air pollution; concepts validated with industry partners and showcased at the UCL Engineering exhibition.</p>
+  <p><em>Engineering Design Lead / Creative Lead · Jun 2023</em></p>
+  <ul>
+    <li>Designed policy + tech solutions to tackle Delhi crop-burning; completed 100 % of deliverables in 2 weeks with a multi-disciplinary team.</li>
+    <li>Collaborated with 15 + policy &amp; industry experts to boost real-world viability.</li>
+    <li>Produced posters, infographics &amp; slide-deck (Adobe CC) that earned a top-scoring presentation (> 90 th percentile).</li>
+  </ul>
 </div>
 
-<!-- ────────────── CANDI Business-Model Project ──────────────── -->
+<!-- ────────────── Assistive Myoelectric-Sensor Mouse ─────────── -->
 <div class="bento">
-  <h3>CANDI – Diagnostic ML Business Model</h3>
-  <p><em>Financial &amp; Creative Lead · Feb&nbsp;2023</em></p>
-  <p>Modelled a <strong>£2.5 bn</strong> addressable market for a prostate-cancer ML diagnostic start-up, producing a 4-year revenue projection and investor pitch.</p>
+  <h3>Assistive Tech – Myoelectric-Sensor Mouse</h3>
+  <p><em>Team Lead &amp; Electronics/Coding Lead · Nov 2022</em></p>
+  <ul>
+    <li>Invented a device enabling amputees to control a mouse via forearm musculature (sub-350 ms latency).</li>
+    <li>Coded C++ firmware for sensor calibration &amp; cursor control, boosting sensitivity 25 %.</li>
+    <li>Achieved 35 % faster response than traditional mice; emphasised user-centred ergonomics.</li>
+  </ul>
 </div>
 
 <!-- ─────────── Facial-Recognition Accessibility App ─────────── -->
 <div class="bento">
-  <img src="assets/images/projects/faceapp.png"
-       alt="Face-recognition prototype">
-  <h3>Facial-Recognition App (Solo)</h3>
-  <p><em>Mar 2022 · MATLAB</em></p>
-  <p>Built a prototype achieving <strong>95 % accuracy</strong> to help visually-impaired users identify acquaintances in real time.</p>
+  <h3>Facial-Recognition App for Visually Impaired</h3>
+  <p><em>Solo Project · Mar 2022 · MATLAB</em></p>
+  <ul>
+    <li>Designed neural-network prototype achieving 95 % facial-recognition accuracy for use with smart doorbells.</li>
+    <li>Presented live demo to a large audience, outlining market logistics &amp; business potential.</li>
+  </ul>
 </div>
 
 </div><!-- /.bento-grid -->
