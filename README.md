@@ -17,31 +17,133 @@
 First-Class **MEng Biomedical Engineering** graduate (UCL) who loves turning messy, multi-modal data into clear insights and intelligent products. Currently building real-time data platforms and edge-AI prototypes in healthcare, bridging the gap between research and production.
 
 ---
-
 ## Experience
+<!-- ----------------------------------------------------------------- -->
 
-| &nbsp; | Role | Organisation | Dates | Impact Highlights |
-|:--:|------|--------------|-------|-------------------|
-| <img src="assets/images/logos/excelcare.png" width="90" alt="Excelcare logo"> | **Data Engineer** | Excelcare | Jun 2024 – Present | • Built Azure Data Factory → SQL Server → Power BI stack ingesting 10+ sources—retired £50 k/yr SaaS EHR, **£75 k+ p.a. savings**<br/>• Deployed GBDT models forecasting 7-day occupancy (MAE 4 %) & 48 h-ahead medication-anomaly alerts |
-| <img src="assets/images/logos/pwc.png" width="80" alt="PwC logo"> | **Financial Services & Consulting Intern** | PwC | Jul 2023 – Aug 2023 | • Automated cash-flow modelling templates, cutting turnaround 25 % |
-| <img src="assets/images/logos/ubs.png" width="80" alt="UBS logo"> | **Investment Banking Intern** | UBS | Jul 2023 – Aug 2023 | • Assisted DCF & trading-comps models for simulated TMT deal |
-| <img src="assets/images/logos/careoptics.png" width="80" alt="Care Optics logo"> | **Data Analyst** | Care Optics | Sep 2019 – Apr 2023 | • Migrated patient records to bespoke MySQL system, reducing monthly reporting 15 % |
-| <img src="assets/images/logos/cignpost.png" width="80" alt="Cignpost logo"> | **Shift Manager** | Cignpost | Jul 2021 – Feb 2022 | • Supervised 30 staff & optimised rosters (Excel Solver) → queue time ↓ 20 % |
+### Data Engineer — Excelcare  
+<sub>Jun 2024 – Present</sub>  
+<img src="assets/images/logos/excelcare.png" width="90" alt="Excelcare logo" align="right">
+
+- Architected **Azure Data Factory → SQL Server → Power BI** platform ingesting 10+ sources, retiring a £50 k/yr SaaS EHR and delivering **£75 k+ annual savings**.  
+- Deployed GBDT models forecasting 7-day occupancy (MAE 4 %) & 48 h medication-anomaly alerts, enabling proactive rota planning.  
+- Retrofit of 100+ CTEC800 nurse-call units with Raspberry Pi MQTT gateways halved alert latency and boosted CQC compliance.  
+
+<br clear="right"/>
+
+---
+
+### Financial Services & Consulting Intern — PwC  
+<sub>Jul 2023 – Aug 2023</sub>  
+<img src="assets/images/logos/pwc.png" width="80" alt="PwC logo" align="right">
+
+- Automated cash-flow modelling templates (Python + Excel) for a mock FTSE-250 client, cutting turnaround **25 %**.  
+- Queried audit data sets (SQL + pandas) to set materiality thresholds and flag high-risk outliers.  
+
+<br clear="right"/>
+
+---
+
+### Investment Banking Intern — UBS  
+<sub>Jul 2023 – Aug 2023</sub>  
+<img src="assets/images/logos/ubs.png" width="80" alt="UBS logo" align="right">
+
+- Built DCF & trading-comps models for simulated TMT deal; compiled sector briefs feeding MD-level pitchbook.  
+
+<br clear="right"/>
+
+---
+
+### Data Analyst — Care Optics  
+<sub>Sep 2019 – Apr 2023</sub>  
+<img src="assets/images/logos/careoptics.png" width="80" alt="Care Optics logo" align="right">
+
+- Migrated patient records to bespoke MySQL system — monthly reporting time ↓ 15 %, saving £25 k p.a.  
+- Automated management-accounts pack via Power Query, accelerating month-end close & audit accuracy.  
+
+<br clear="right"/>
+
+---
+
+### Shift Manager — Cignpost  
+<sub>Jul 2021 – Feb 2022</sub>  
+<img src="assets/images/logos/cignpost.png" width="80" alt="Cignpost logo" align="right">
+
+- Supervised 30 staff & optimised rosters with Excel Solver → queue length ↓ 20 %, staff error rate ↓ 45 %.  
+
+<br clear="right"/>
 
 ---
 
 ## Selected Projects
+<!-- ----------------------------------------------------------------- -->
 
-| Year | Project | Tech | What I did | Snapshot |
-|:---:|---------|------|------------|:--:|
-| 2025 | **IRIS – Accessible Smart Doorbell** | Raspberry Pi · YOLOv8 · GPT-4o | Designed <1 s multimodal V-L pipeline & tactile/audio UX; authored LCA report | <img src="assets/images/projects/iris.jpg" width="150" alt="IRIS doorbell demo"> |
-| 2024 | **Monotone Operator DL for QSM** | PyTorch · FFT | Out-performed iterative MRI dipole inversion on speed & accuracy | <img src="assets/images/projects/qsm.png" width="150" alt="QSM project image"> |
-| 2024 | **National Demographic Data App** | Python · PostgreSQL · Plotly Dash | Geo-spatial viz & time-series forecasting guiding ad spend | <img src="assets/images/projects/demographics.png" width="150" alt="Demographics dashboard"> |
-| 2023 | **GreenChain (LBG Top 5)** | React · Flask | Modelled subscription economics for supply-chain ESG-tracking | <img src="assets/images/projects/greenchain.gif" width="150" alt="GreenChain gif"> |
-| 2023 | **CANDI – Diagnostic ML Business Model** | Python · Financial Modelling | Projected £2.5 bn TAM & 4-year revenue plan | <img src="assets/images/projects/candi.jpg" width="150" alt="CANDI mock-up"> |
-| 2023 | **UCL HTCTW – Urban Air-Pollution Solutions** | Design Thinking | Devised quantifiable frameworks validated with industry partners | <img src="assets/images/projects/htcwt.png" width="150" alt="HTCTW ideation board"> |
-| 2022 | **Facial-Recognition App (Solo)** | MATLAB | Achieved 95 % accuracy prototype for visually-impaired users | <img src="assets/images/projects/faceapp.png" width="150" alt="Face-recognition demo"> |
+### IRIS — Accessible Smart Doorbell  
+<sub>2025 · Raspberry Pi · YOLOv8 · GPT-4o</sub>  
+<img src="assets/images/projects/iris.jpg" width="160" alt="IRIS photo" align="right">
 
+Designed sub-1 s multimodal vision-language pipeline with tactile/audio UX for visually-impaired users; wrote 200-page break-even & LCA report.
+
+<br clear="right"/>
+
+---
+
+### Monotone Operator DL for QSM  
+<sub>2024 · PyTorch · FFT</sub>  
+<img src="assets/images/projects/qsm.png" width="160" alt="QSM heat-map" align="right">
+
+Applied Monotone Operator Learning to MRI dipole inversion, outperforming iterative solvers on speed & accuracy.
+
+<br clear="right"/>
+
+---
+
+### National Demographic Data App  
+<sub>2024 · Python · PostgreSQL · Plotly Dash</sub>  
+<img src="assets/images/projects/demographics.png" width="160" alt="Dashboard screenshot" align="right">
+
+Built interactive geo-spatial visualisations and forecasting models guiding targeted ad spend.
+
+<br clear="right"/>
+
+---
+
+### GreenChain — Lloyds Bank Hackathon Top 5  
+<sub>2023 · React · Flask</sub>  
+<img src="assets/images/projects/greenchain.gif" width="160" alt="GreenChain demo" align="right">
+
+Modelled subscription economics for supply-chain ESG-tracking SaaS; pitched to senior VCs and LBG Digital directors.
+
+<br clear="right"/>
+
+---
+
+### CANDI — Diagnostic ML Business Model  
+<sub>2023 · Python · Financial Modelling</sub>  
+<img src="assets/images/projects/candi.jpg" width="160" alt="CANDI mock-up" align="right">
+
+Projected £2.5 bn TAM & 4-year revenue plan for prostate-cancer ML start-up; secured finalist spot in UCL Venture Catalyst.
+
+<br clear="right"/>
+
+---
+
+### UCL HTCTW — Urban Air-Pollution Solutions  
+<sub>2023 · Design Thinking</sub>  
+<img src="assets/images/projects/htcwt.png" width="160" alt="Brainstorm board" align="right">
+
+Devised quantifiable frameworks, validated with industry partners; top-scoring poster at UCL Engineering Showcase.
+
+<br clear="right"/>
+
+---
+
+### Facial-Recognition App (Solo)  
+<sub>2022 · MATLAB</sub>  
+<img src="assets/images/projects/faceapp.png" width="160" alt="Face-recog prototype" align="right">
+
+Built 95 %-accuracy prototype enabling visually-impaired users to identify acquaintances in real time.
+
+<br clear="right"/>
 ---
 
 ## Education
