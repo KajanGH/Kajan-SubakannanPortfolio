@@ -148,24 +148,33 @@ Built 95 %-accuracy prototype enabling visually-impaired users to identify acqua
 
 ## Education
 
-<img src="assets/images/logos/ucl.png" width="120" alt="UCL logo">
-
-**University College London (UCL)** — *MEng Biomedical Engineering, First Class*  
-Key modules: Computing in Medicine (89 %), Applied Software Engineering (80 %), ML in Medical Imaging (74 %) …
+**University College London (UCL)** — *MEng Biomedical Engineering, First Class Honours*  
+**Key quantitative / computing modules**: Computing in Medicine (89 %), Applied Software Engineering (80 %), Applied Programming for Data Science (78 %), ML in Medical Imaging (74 %), Robotic Systems Engineering (72 %), Mathematical Modelling I (68 %)  
+**Research emphasis**: Algorithm optimisation & edge‑AI techniques (see *IRIS* & *Monotone Operator Learning*).
 
 ---
 
 ## Skills
-*(unchanged – keeping the full list for brevity)*  
+
+- **Programming / Mark‑up**: Python · SQL · R · MATLAB · C++ · JavaScript · HTML/CSS · Bash · LaTeX  
+- **ML / Data Tooling**: PyTorch · TensorFlow · scikit‑learn · pandas · NumPy · SciPy · OpenCV · Statsmodels · Plotly · Seaborn  
+- **Data Engineering & BI**: Microsoft SQL Server · PostgreSQL · Power BI · Azure Data Factory · Power Automate · SQLAlchemy/ODBC · REST/JSON APIs · ETL (pandas) · Data Visualisation  
+- **Professional & Soft**: Stakeholder communication · Agile (Scrum/Kanban) · Technical writing · Presentation & public speaking · Team leadership · Time management
 
 ---
 
 ## Awards & Accreditations
-*(unchanged)*  
+
+- **Chartered Engineer (CEng)** — IET: Professional review submitted; registration pending Q4 2025  
+- Nominee – *Best Prototype* & *Best Innovation*, **UCL Engineering CEE Awards 2025**  
+- **Conference Keynote**, Excelcare Digital‑Transformation Summit 2025 (AI‑in‑healthcare segment)  
+- **Top 5** – Lloyds BG *GreenChain* Hackathon 2023 (50+ teams)
 
 ---
 
-## Get in touch  
-I’m keen to collaborate on data-driven healthcare and societal-impact projects. Connect on [LinkedIn](https://www.linkedin.com/in/kajan-subakannan-578a16135/) or drop an [email](mailto:kajan2backup@gmail.com).
+## Get in touch
 
-<p align="center"><sub>Last updated: Aug 2025</sub></p>
+I’m keen to collaborate on data‑driven healthcare and societal‑impact projects. Drop me a line on [LinkedIn](https://www.linkedin.com/in/kajan-subakannan-578a16135/) or send an [email](mailto:kajan2backup@gmail.com).
+
+<!-- Footer note -->
+<p align="center"><sub>Last updated: Aug 2025</sub></p>
