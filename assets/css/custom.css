@@ -1,37 +1,35 @@
-/* ---------------  WIDER LAYOUT  ---------------- */
-
-.wrapper {          /* default is ~800 px */
-  max-width: 1200px;          /* pick any value or % */
-  padding: 0 32px;            /* a touch of breathing room */
+/* ----------  GLOBAL PALETTE  ---------- */
+:root{
+  --accent:      #7a2d7f;   /* UCL purple */
+  --bg:          #f9f9fb;
+  --card-bg:     #ffffff;
+  --text:        #222;
+  --shadow:      0 2px 8px rgba(0,0,0,.06);
 }
 
-@media (min-width: 1600px) {   /* ultra-wide screens */
-  .wrapper {
-    max-width: 1400px;
-  }
-}
+body            { background:var(--bg); color:var(--text); }
+a               { color:var(--accent); text-decoration:none; }
+a:hover         { text-decoration:underline; }
 
-/* Optional: centre the logo block if you ever swap to a banner style */
-/*
-header img {
-  display: block;
-  margin: 0 auto;
-}
-*/
+/* ----------  WIDER WRAPPER  ---------- */
+.wrapper        { max-width:1200px; padding:0 32px; }
+@media (min-width:1600px){ .wrapper{ max-width:1400px; } }
 
-/* ---------------  NAV PANEL  ------------------- */
+/* ----------  NAV PANEL  ---------- */
+.nav-panel      { margin:1.5rem 0 2rem; text-align:center; }
+.nav-panel a    { margin:0 .6rem; font-weight:600; }
+.nav-panel a:hover{ text-decoration:none; color:#000; }
 
-.nav-panel {
-  margin: 1rem 0 2rem;
-  text-align: center;
-  font-weight: 600;
-}
+/* ----------  BENTO GRID  ---------- */
+.bento-grid     { display:grid; gap:1rem;
+                  grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); }
 
-.nav-panel a {
-  margin: 0 .5rem;
-  text-decoration: none;
-}
+.bento          { background:var(--card-bg); border-radius:14px; box-shadow:var(--shadow);
+                  padding:1.2rem 1rem; position:relative; overflow:hidden; }
 
-.nav-panel a:hover {
-  text-decoration: underline;
-}
+.bento img      { width:100%; height:160px; object-fit:cover;
+                  border-radius:10px; margin-bottom:.8rem; }
+
+.bento h3       { margin:.2rem 0 .6rem; font-size:1.15rem; color:var(--accent); }
+
+.bento p        { margin:.3rem 0; line-height:1.4; font-size:.95rem; }
