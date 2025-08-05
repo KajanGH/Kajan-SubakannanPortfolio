@@ -22,7 +22,7 @@
 ---
 
 ## About
-First-Class **MEng Biomedical Engineering** graduate (UCL) who loves turning messy, multi-modal data into clear insights and intelligent products. Currently building real-time data platforms and edge-AI prototypes in healthcare, bridging the gap between research and production.
+
 
 ---
 ## Experience
@@ -114,8 +114,6 @@ First-Class **MEng Biomedical Engineering** graduate (UCL) who loves turning mes
 
 <!-- ──────────────── National Demographic Data App ───────────── -->
 <div class="bento">
-  <img src="assets/images/projects/demographics.png"
-       alt="Demographic dashboard">
   <h3>National Demographic Data App</h3>
   <p><em>Lead Engineer (Sep&nbsp;2023 – May&nbsp;2024)</em></p>
   <ul>
@@ -126,8 +124,6 @@ First-Class **MEng Biomedical Engineering** graduate (UCL) who loves turning mes
 
 <!-- ──────────────────── GreenChain Hackathon ─────────────────── -->
 <div class="bento">
-  <img src="assets/images/projects/greenchain.gif"
-       alt="GreenChain demo">
   <h3>GreenChain – Lloyds Bank Reboot Hackathon</h3>
   <p><em>Business &amp; Design Lead · Top 5 / 50 teams · Jun&nbsp;2023</em></p>
   <p>Modelled subscription economics for supply-chain emissions tracking, aligning incentives with green-finance metrics and anticipating regulatory-driven capital flows.</p>
@@ -135,8 +131,6 @@ First-Class **MEng Biomedical Engineering** graduate (UCL) who loves turning mes
 
 <!-- ──────────────── HTCTW Air-Pollution Project ─────────────── -->
 <div class="bento">
-  <img src="assets/images/projects/htcwt.png"
-       alt="Urban air-pollution project">
   <h3>HTCTW – Urban Air-Pollution Solutions</h3>
   <p><em>Engineering Design &amp; Creative Lead · Jun&nbsp;2023</em></p>
   <p>Devised quantifiable frameworks to tackle urban air pollution; concepts validated with industry partners and showcased at the UCL Engineering exhibition.</p>
@@ -144,8 +138,6 @@ First-Class **MEng Biomedical Engineering** graduate (UCL) who loves turning mes
 
 <!-- ────────────── CANDI Business-Model Project ──────────────── -->
 <div class="bento">
-  <img src="assets/images/projects/candi.jpg"
-       alt="CANDI mock-up">
   <h3>CANDI – Diagnostic ML Business Model</h3>
   <p><em>Financial &amp; Creative Lead · Feb&nbsp;2023</em></p>
   <p>Modelled a <strong>£2.5 bn</strong> addressable market for a prostate-cancer ML diagnostic start-up, producing a 4-year revenue projection and investor pitch.</p>
