@@ -8,5 +8,6 @@ show_downloads: false  # set to true if you want ZIP/TAR download buttons
 # Optional short tagline that shows under your name
 # description: "Data Engineer & Biomedical‑AI Enthusiast"
 
-
+safe: false   
 theme: jekyll-theme-minimal
+
