@@ -10,6 +10,14 @@
   <a href="https://www.linkedin.com/in/kajan-subakannan-578a16135/">LinkedIn</a> ·
   <a href="https://github.com/KajanGH">GitHub</a>
 </p>
+<div class="nav-panel">
+  <a href="#experience">Experience</a> ·
+  <a href="#selected-projects">Projects</a> ·
+  <a href="#education">Education</a> ·
+  <a href="#skills">Skills</a> ·
+  <a href="#awards--accreditations">Awards</a> ·
+  <a href="#get-in-touch">Contact</a>
+</div>
 
 ---
 
