@@ -1,0 +1,37 @@
+/* ---------------  WIDER LAYOUT  ---------------- */
+
+.wrapper {          /* default is ~800 px */
+  max-width: 1200px;          /* pick any value or % */
+  padding: 0 32px;            /* a touch of breathing room */
+}
+
+@media (min-width: 1600px) {   /* ultra-wide screens */
+  .wrapper {
+    max-width: 1400px;
+  }
+}
+
+/* Optional: centre the logo block if you ever swap to a banner style */
+/*
+header img {
+  display: block;
+  margin: 0 auto;
+}
+*/
+
+/* ---------------  NAV PANEL  ------------------- */
+
+.nav-panel {
+  margin: 1rem 0 2rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+.nav-panel a {
+  margin: 0 .5rem;
+  text-decoration: none;
+}
+
+.nav-panel a:hover {
+  text-decoration: underline;
+}
