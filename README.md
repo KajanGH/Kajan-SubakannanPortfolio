@@ -88,13 +88,12 @@ Designed sub-1 s multimodal vision-language pipeline with tactile/audio UX for v
 ---
 
 ### Monotone Operator DL for QSM  
-<sub>2024 · PyTorch · FFT</sub>  
+<sub>2024 · PyTorch · FFT · <a href="assets/papers/monotone_qsm.pdf">View paper (PDF)</a></sub>  
 <img src="assets/images/projects/qsm.png" height="80" style="object-fit:contain;" alt="QSM heat-map" align="right">
 
 Applied Monotone Operator Learning to MRI dipole inversion, outperforming iterative solvers on speed & accuracy.
 
 <br clear="right"/>
-
 ---
 
 ### National Demographic Data App  
