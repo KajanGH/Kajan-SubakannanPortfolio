@@ -88,88 +88,79 @@ First-Class **MEng Biomedical Engineering** graduate (UCL) who loves turning mes
 <!-- ─────────────────────────── IRIS ─────────────────────────── -->
 <div class="bento">
   <img src="assets/images/projects/iris.jpg"
-       height="160" style="object-fit:cover;" alt="IRIS doorbell prototype">
+       alt="IRIS doorbell prototype">
   <h3>IRIS – Accessible Smart Doorbell</h3>
-  <p><em>ML & Systems-Integration Lead · Master’s Research&nbsp;(Oct 2024 – Jun 2025)</em></p>
-  <p>
-  • Inclusive hardware & AI design: smart-doorbell prototype delivers real-time visitor descriptions + RFID ID on Raspberry Pi 4B inside a weather-proof PETG enclosure:contentReference[oaicite:12]{index=12}<br>
-  • Engineered a <strong>&lt;1 s</strong> multimodal vision–language pipeline (YOLOv8 + GPT-4o) on constrained hardware, proving low-latency analytics feasibility:contentReference[oaicite:13]{index=13}<br>
-  • Iteratively refined tactile Braille controls, audio UX & sustainability strategy with RNIB user panels – met ISO 24920 accessibility spec:contentReference[oaicite:14]{index=14}<br>
-  • Authored a 200-page break-even & LCA report translating architecture into a year-1 profitability case:contentReference[oaicite:15]{index=15}
-  </p>
+  <p><em>ML&nbsp;&amp;&nbsp;Systems-Integration Lead · Master’s Research (Oct&nbsp;2024 – Jun&nbsp;2025)</em></p>
+  <ul>
+    <li>Inclusive hardware + AI design: smart-doorbell prototype delivers real-time visitor descriptions &amp; RFID ID on a Raspberry Pi 4B inside a weather-proof PETG enclosure.</li>
+    <li>Engineered a <strong>&lt;1&nbsp;s</strong> multimodal vision-language pipeline (YOLOv8 + GPT-4o) on constrained hardware, proving low-latency analytics feasibility.</li>
+    <li>Iteratively refined tactile Braille controls, audio UX &amp; sustainability strategy with RNIB user panels — met ISO 24920 accessibility spec.</li>
+    <li>Authored a 200-page break-even &amp; LCA report translating architecture into a year-1 profitability case.</li>
+  </ul>
 </div>
 
 <!-- ─────────────────── Monotone Operator DL for QSM ─────────── -->
 <div class="bento">
   <img src="assets/images/projects/qsm.png"
-       height="160" style="object-fit:cover;" alt="QSM heat-map">
+       alt="QSM heat-map">
   <h3>Monotone Operator DL for QSM</h3>
-  <p><em>Undergrad Research · UCL Bioengineering&nbsp;(Sep 2023 – May 2024)</em> ·
-     <a href="assets/papers/monotone_qsm.pdf" target="_blank" rel="noopener">View paper (PDF)</a></p>
-  <p>
-  • Applied a Monotone Operator Learning framework to solve the ill-posed dipole-inversion problem, beating iterative methods on memory and accuracy:contentReference[oaicite:16]{index=16}<br>
-  • Implemented 3-D convolutions, k-space transforms & FFTs in PyTorch for accelerated reconstruction:contentReference[oaicite:17]{index=17}
-  </p>
+  <p><em>Undergrad Research · UCL Bioengineering (Sep&nbsp;2023 – May&nbsp;2024)</em> ·
+     <a href="assets/papers/monotone_qsm.pdf" target="_blank" rel="noopener">View&nbsp;paper (PDF)</a></p>
+  <ul>
+    <li>Applied a Monotone-Operator Learning framework to solve the ill-posed dipole-inversion problem, beating iterative methods on memory <em>and</em> accuracy.</li>
+    <li>Implemented 3-D convolutions, k-space transforms &amp; FFTs in PyTorch for accelerated reconstruction.</li>
+  </ul>
 </div>
 
 <!-- ──────────────── National Demographic Data App ───────────── -->
 <div class="bento">
   <img src="assets/images/projects/demographics.png"
-       height="160" style="object-fit:cover;" alt="Demographic dashboard">
+       alt="Demographic dashboard">
   <h3>National Demographic Data App</h3>
-  <p><em>Lead Engineer&nbsp;(Sep 2023 – May 2024)</em></p>
-  <p>
-  • Built an analytics platform with geo-spatial visualisation, time-series forecasting & a Customer Potential Index to steer ad-spend:contentReference[oaicite:18]{index=18}<br>
-  • Delivered secure REST API & ran MoSCoW-prioritised sprints for rapid iteration:contentReference[oaicite:19]{index=19}
-  </p>
+  <p><em>Lead Engineer (Sep&nbsp;2023 – May&nbsp;2024)</em></p>
+  <ul>
+    <li>Built an analytics platform with geo-spatial visualisation, time-series forecasting &amp; a Customer Potential Index to steer ad-spend.</li>
+    <li>Delivered secure REST API &amp; ran MoSCoW-prioritised sprints for rapid iteration.</li>
+  </ul>
 </div>
 
-<!-- ───────────────── GreenChain Hackathon ───────────────────── -->
+<!-- ──────────────────── GreenChain Hackathon ─────────────────── -->
 <div class="bento">
   <img src="assets/images/projects/greenchain.gif"
-       height="160" style="object-fit:cover;" alt="GreenChain demo">
-  <h3>GreenChain – LBG Reboot Hackathon</h3>
-  <p><em>Business & Design Lead · Top 5/50 teams · Jun 2023</em></p>
-  <p>
-  Modelled subscription economics for supply-chain emissions tracking, aligning incentives with green-finance metrics and anticipating regulatory-driven capital flows:contentReference[oaicite:20]{index=20}
-  </p>
+       alt="GreenChain demo">
+  <h3>GreenChain – Lloyds Bank Reboot Hackathon</h3>
+  <p><em>Business &amp; Design Lead · Top 5 / 50 teams · Jun&nbsp;2023</em></p>
+  <p>Modelled subscription economics for supply-chain emissions tracking, aligning incentives with green-finance metrics and anticipating regulatory-driven capital flows.</p>
 </div>
 
-<!-- ────────────── UCL Integrated Engineering HTCTW ───────────── -->
+<!-- ──────────────── HTCTW Air-Pollution Project ─────────────── -->
 <div class="bento">
   <img src="assets/images/projects/htcwt.png"
-       height="160" style="object-fit:cover;" alt="Urban air-pollution project">
+       alt="Urban air-pollution project">
   <h3>HTCTW – Urban Air-Pollution Solutions</h3>
-  <p><em>Engineering Design & Creative Lead · Jun 2023</em></p>
-  <p>
-  Devised quantifiable frameworks to tackle urban air pollution; concepts validated with industry partners and showcased at UCL Engineering exhibition:contentReference[oaicite:21]{index=21}
-  </p>
+  <p><em>Engineering Design &amp; Creative Lead · Jun&nbsp;2023</em></p>
+  <p>Devised quantifiable frameworks to tackle urban air pollution; concepts validated with industry partners and showcased at the UCL Engineering exhibition.</p>
 </div>
 
-<!-- ──────────────── CANDI Business Modelling ────────────────── -->
+<!-- ────────────── CANDI Business-Model Project ──────────────── -->
 <div class="bento">
   <img src="assets/images/projects/candi.jpg"
-       height="160" style="object-fit:cover;" alt="CANDI mock-up">
+       alt="CANDI mock-up">
   <h3>CANDI – Diagnostic ML Business Model</h3>
-  <p><em>Financial & Creative Lead · Feb 2023</em></p>
-  <p>
-  Modelled a <strong>£2.5 bn</strong> addressable market for an ML prostate-cancer diagnostic start-up, producing a 4-year revenue projection and investor pitch:contentReference[oaicite:22]{index=22}
-  </p>
+  <p><em>Financial &amp; Creative Lead · Feb&nbsp;2023</em></p>
+  <p>Modelled a <strong>£2.5 bn</strong> addressable market for a prostate-cancer ML diagnostic start-up, producing a 4-year revenue projection and investor pitch.</p>
 </div>
 
-<!-- ─────────────── Facial-Recognition Accessibility ─────────── -->
+<!-- ─────────── Facial-Recognition Accessibility App ─────────── -->
 <div class="bento">
   <img src="assets/images/projects/faceapp.png"
-       height="160" style="object-fit:cover;" alt="Face-recog prototype">
+       alt="Face-recognition prototype">
   <h3>Facial-Recognition App (Solo)</h3>
   <p><em>Mar 2022 · MATLAB</em></p>
-  <p>
-  Built a prototype achieving <strong>95 % accuracy</strong> to help visually-impaired users identify acquaintances in real time:contentReference[oaicite:23]{index=23}
-  </p>
+  <p>Built a prototype achieving <strong>95 % accuracy</strong> to help visually-impaired users identify acquaintances in real time.</p>
 </div>
 
 </div><!-- /.bento-grid -->
-
 
 ## Education
 
