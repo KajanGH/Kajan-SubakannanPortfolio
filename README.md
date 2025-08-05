@@ -101,7 +101,7 @@ First-Class **MEng Biomedical Engineering** graduate (UCL) who loves turning mes
 
 <!-- ─────────────────── Monotone Operator DL for QSM ─────────── -->
 <div class="bento">
-  <img src="assets/images/projects/qsm.png"
+  <img src="assets/images/projects/qsm.gif"
        alt="QSM heat-map">
   <h3>Monotone Operator DL for QSM</h3>
   <p><em>Undergrad Research · UCL Bioengineering (Sep&nbsp;2023 – May&nbsp;2024)</em> ·
