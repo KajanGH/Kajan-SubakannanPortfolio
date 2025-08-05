@@ -92,7 +92,7 @@ First-Class **MEng Biomedical Engineering** graduate (UCL) who loves turning mes
 </div>
 
 <div class="bento">
-  <img src="assets/images/projects/qsm.png" alt="QSM image">
+  <img src="assets/images/projects/qsm.gif" alt="QSM image">
   <h3>Monotone Operator DL for QSM</h3>
   <p>Out-performed iterative MRI dipole inversion on speed &amp; accuracy.
      <br><a href="assets/papers/monotone_qsm.pdf" target="_blank" rel="noopener">View paper (PDF)</a></p>
