@@ -83,26 +83,25 @@ First-Class **MEng Biomedical Engineering** graduate (UCL) who loves turning mes
 ---
 
 ## Selected Projects
-<!-- ----------------------------------------------------------------- -->
+<div class="bento-grid">
 
-### IRIS — Accessible Smart Doorbell  
-<sub>2025 · Raspberry Pi · YOLOv8 · GPT-4o</sub>  
-<img src="assets/images/projects/iris.jpg" height="80" style="object-fit:contain;" alt="IRIS photo" align="right">
+<div class="bento">
+  <img src="assets/images/projects/iris.jpg" alt="IRIS demo">
+  <h3>IRIS – Accessible Smart Doorbell</h3>
+  <p>Designed &lt;1 s multimodal vision-language pipeline and tactile/audio UX for visually-impaired users.</p>
+</div>
 
-Designed sub-1 s multimodal vision-language pipeline with tactile/audio UX for visually-impaired users; wrote 200-page break-even & LCA report.
+<div class="bento">
+  <img src="assets/images/projects/qsm.png" alt="QSM image">
+  <h3>Monotone Operator DL for QSM</h3>
+  <p>Out-performed iterative MRI dipole inversion on speed &amp; accuracy.
+     <br><a href="assets/papers/monotone_qsm.pdf" target="_blank" rel="noopener">View paper (PDF)</a></p>
+</div>
 
-<br clear="right"/>
 
----
 
-### Monotone Operator DL for QSM  
-<sub>2024 · PyTorch · FFT · <a href="assets/papers/monotone_qsm.pdf" target="_blank" rel="noopener">Read Paper&nbsp;(PDF)</a></sub>  
-<img src="assets/images/projects/qsm.png" height="80" style="object-fit:contain;" alt="QSM heat-map" align="right">
-
-Applied Monotone Operator Learning to MRI dipole inversion, outperforming iterative solvers on speed & accuracy.
-
-<br clear="right"/>
----
+<!-- Duplicate the pattern for each project -->
+</div>
 
 ### National Demographic Data App  
 <sub>2024 · Python · PostgreSQL · Plotly Dash</sub>  
