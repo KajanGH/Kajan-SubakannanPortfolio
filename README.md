@@ -85,72 +85,91 @@ First-Class **MEng Biomedical Engineering** graduate (UCL) who loves turning mes
 ## Selected Projects
 <div class="bento-grid">
 
+<!-- ─────────────────────────── IRIS ─────────────────────────── -->
 <div class="bento">
-  <img src="assets/images/projects/iris.jpg" alt="IRIS demo">
+  <img src="assets/images/projects/iris.jpg"
+       height="160" style="object-fit:cover;" alt="IRIS doorbell prototype">
   <h3>IRIS – Accessible Smart Doorbell</h3>
-  <p>Designed &lt;1 s multimodal vision-language pipeline and tactile/audio UX for visually-impaired users.</p>
+  <p><em>ML & Systems-Integration Lead · Master’s Research&nbsp;(Oct 2024 – Jun 2025)</em></p>
+  <p>
+  • Inclusive hardware & AI design: smart-doorbell prototype delivers real-time visitor descriptions + RFID ID on Raspberry Pi 4B inside a weather-proof PETG enclosure:contentReference[oaicite:12]{index=12}<br>
+  • Engineered a <strong>&lt;1 s</strong> multimodal vision–language pipeline (YOLOv8 + GPT-4o) on constrained hardware, proving low-latency analytics feasibility:contentReference[oaicite:13]{index=13}<br>
+  • Iteratively refined tactile Braille controls, audio UX & sustainability strategy with RNIB user panels – met ISO 24920 accessibility spec:contentReference[oaicite:14]{index=14}<br>
+  • Authored a 200-page break-even & LCA report translating architecture into a year-1 profitability case:contentReference[oaicite:15]{index=15}
+  </p>
 </div>
 
+<!-- ─────────────────── Monotone Operator DL for QSM ─────────── -->
 <div class="bento">
-  <img src="assets/images/projects/qsm.gif" alt="QSM image">
+  <img src="assets/images/projects/qsm.png"
+       height="160" style="object-fit:cover;" alt="QSM heat-map">
   <h3>Monotone Operator DL for QSM</h3>
-  <p>Out-performed iterative MRI dipole inversion on speed &amp; accuracy.
-     <br><a href="assets/papers/monotone_qsm.pdf" target="_blank" rel="noopener">View paper (PDF)</a></p>
+  <p><em>Undergrad Research · UCL Bioengineering&nbsp;(Sep 2023 – May 2024)</em> ·
+     <a href="assets/papers/monotone_qsm.pdf" target="_blank" rel="noopener">View paper (PDF)</a></p>
+  <p>
+  • Applied a Monotone Operator Learning framework to solve the ill-posed dipole-inversion problem, beating iterative methods on memory and accuracy:contentReference[oaicite:16]{index=16}<br>
+  • Implemented 3-D convolutions, k-space transforms & FFTs in PyTorch for accelerated reconstruction:contentReference[oaicite:17]{index=17}
+  </p>
 </div>
 
-
-
-<!-- Duplicate the pattern for each project -->
+<!-- ──────────────── National Demographic Data App ───────────── -->
+<div class="bento">
+  <img src="assets/images/projects/demographics.png"
+       height="160" style="object-fit:cover;" alt="Demographic dashboard">
+  <h3>National Demographic Data App</h3>
+  <p><em>Lead Engineer&nbsp;(Sep 2023 – May 2024)</em></p>
+  <p>
+  • Built an analytics platform with geo-spatial visualisation, time-series forecasting & a Customer Potential Index to steer ad-spend:contentReference[oaicite:18]{index=18}<br>
+  • Delivered secure REST API & ran MoSCoW-prioritised sprints for rapid iteration:contentReference[oaicite:19]{index=19}
+  </p>
 </div>
 
-### National Demographic Data App  
-<sub>2024 · Python · PostgreSQL · Plotly Dash</sub>  
-<img src="assets/images/projects/demographics.png" height="80" style="object-fit:contain;" alt="Dashboard screenshot" align="right">
+<!-- ───────────────── GreenChain Hackathon ───────────────────── -->
+<div class="bento">
+  <img src="assets/images/projects/greenchain.gif"
+       height="160" style="object-fit:cover;" alt="GreenChain demo">
+  <h3>GreenChain – LBG Reboot Hackathon</h3>
+  <p><em>Business & Design Lead · Top 5/50 teams · Jun 2023</em></p>
+  <p>
+  Modelled subscription economics for supply-chain emissions tracking, aligning incentives with green-finance metrics and anticipating regulatory-driven capital flows:contentReference[oaicite:20]{index=20}
+  </p>
+</div>
 
-Built interactive geo-spatial visualisations and forecasting models guiding targeted ad spend.
+<!-- ────────────── UCL Integrated Engineering HTCTW ───────────── -->
+<div class="bento">
+  <img src="assets/images/projects/htcwt.png"
+       height="160" style="object-fit:cover;" alt="Urban air-pollution project">
+  <h3>HTCTW – Urban Air-Pollution Solutions</h3>
+  <p><em>Engineering Design & Creative Lead · Jun 2023</em></p>
+  <p>
+  Devised quantifiable frameworks to tackle urban air pollution; concepts validated with industry partners and showcased at UCL Engineering exhibition:contentReference[oaicite:21]{index=21}
+  </p>
+</div>
 
-<br clear="right"/>
+<!-- ──────────────── CANDI Business Modelling ────────────────── -->
+<div class="bento">
+  <img src="assets/images/projects/candi.jpg"
+       height="160" style="object-fit:cover;" alt="CANDI mock-up">
+  <h3>CANDI – Diagnostic ML Business Model</h3>
+  <p><em>Financial & Creative Lead · Feb 2023</em></p>
+  <p>
+  Modelled a <strong>£2.5 bn</strong> addressable market for an ML prostate-cancer diagnostic start-up, producing a 4-year revenue projection and investor pitch:contentReference[oaicite:22]{index=22}
+  </p>
+</div>
 
----
+<!-- ─────────────── Facial-Recognition Accessibility ─────────── -->
+<div class="bento">
+  <img src="assets/images/projects/faceapp.png"
+       height="160" style="object-fit:cover;" alt="Face-recog prototype">
+  <h3>Facial-Recognition App (Solo)</h3>
+  <p><em>Mar 2022 · MATLAB</em></p>
+  <p>
+  Built a prototype achieving <strong>95 % accuracy</strong> to help visually-impaired users identify acquaintances in real time:contentReference[oaicite:23]{index=23}
+  </p>
+</div>
 
-### GreenChain — Lloyds Bank Hackathon Top 5  
-<sub>2023 · React · Flask</sub>  
-<img src="assets/images/projects/greenchain.gif" height="80" style="object-fit:contain;" alt="GreenChain demo" align="right">
+</div><!-- /.bento-grid -->
 
-Modelled subscription economics for supply-chain ESG-tracking SaaS; pitched to senior VCs and LBG Digital directors.
-
-<br clear="right"/>
-
----
-
-### CANDI — Diagnostic ML Business Model  
-<sub>2023 · Python · Financial Modelling</sub>  
-<img src="assets/images/projects/candi.jpg" height="80" style="object-fit:contain;" alt="CANDI mock-up" align="right">
-
-Projected £2.5 bn TAM & 4-year revenue plan for prostate-cancer ML start-up; secured finalist spot in UCL Venture Catalyst.
-
-<br clear="right"/>
-
----
-
-### UCL HTCTW — Urban Air-Pollution Solutions  
-<sub>2023 · Design Thinking</sub>  
-<img src="assets/images/projects/htcwt.png" height="80" style="object-fit:contain;" alt="Brainstorm board" align="right">
-
-Devised quantifiable frameworks, validated with industry partners; top-scoring poster at UCL Engineering Showcase.
-
-<br clear="right"/>
-
----
-
-### Facial-Recognition App (Solo)  
-<sub>2022 · MATLAB</sub>  
-<img src="assets/images/projects/faceapp.png" height="80" style="object-fit:contain;" alt="Face-recog prototype" align="right">
-
-Built 95 %-accuracy prototype enabling visually-impaired users to identify acquaintances in real time.
-
-<br clear="right"/>
----
 
 ## Education
 
