@@ -1,0 +1,11 @@
+# ➜  _config.yml  ◀──────────────────────────────────────────
+# Minimal configuration for GitHub Pages (Jekyll)
+# Uncomment the logo line after you upload an image to `assets/images/`
+
+title: "Kajan Subakannan"
+# logo: assets/images/profile.jpg
+show_downloads: false  # set to true if you want ZIP/TAR download buttons
+# Optional short tagline that shows under your name
+# description: "Data Engineer & Biomedical‑AI Enthusiast"
+
+theme: jekyll-theme-minimal
