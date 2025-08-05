@@ -1,43 +1,125 @@
-/* ----------  GLOBAL PALETTE  ---------- */
+/* ============================================================
+   GLOBAL PALETTE & BASICS
+   ============================================================ */
 :root{
-  --accent:      #7a2d7f;   /* UCL purple */
-  --bg:          #f9f9fb;
-  --card-bg:     #ffffff;
-  --text:        #222;
-  --shadow:      0 2px 8px rgba(0,0,0,.06);
+  --accent:        #7a2d7f;      /* UCL purple */
+  --bg:            #f9f9fb;
+  --card-bg:       #ffffff;
+  --text:          #222;
+  --shadow:        0 2px 8px rgba(0,0,0,.06);
+
+  --sidebar-width: 260px;        /* tweak once and it cascades */
 }
 
-body            { background:var(--bg); color:var(--text); }
-a               { color:var(--accent); text-decoration:none; }
-a:hover         { text-decoration:underline; }
+body{
+  background:var(--bg);
+  color:var(--text);
+  margin:0;
+  font-family:
+    system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
 
-/* ----------  WIDER WRAPPER  ---------- */
-.wrapper        { max-width:1200px; padding:0 32px; }
-@media (min-width:1600px){ .wrapper{ max-width:1400px; } }
+a{ color:var(--accent); text-decoration:none; }
+a:hover{ text-decoration:underline; }
 
-/* ----------  NAV PANEL  ---------- */
-.nav-panel      { margin:1.5rem 0 2rem; text-align:center; }
-.nav-panel a    { margin:0 .6rem; font-weight:600; }
-.nav-panel a:hover{ text-decoration:none; color:#000; }
+/* ============================================================
+   PAGE LAYOUT
+   ============================================================ */
+/* remove Jekyll’s default width clamp */
+.wrapper{ max-width:100%; padding:0; margin:0; }
 
-/* ----------  BENTO GRID  ---------- */
-/* --- palette & layout --- */
-:root{ --accent:#7a2d7f; --bg:#f9f9fb; --card-bg:#fff; }
-body{ background:var(--bg); color:#222; }
-.wrapper{ max-width:none; margin:0; padding:0; }
+/* flex container applied in README */
+.layout{ display:flex; }
 
-/* --- grid --- */
-.bento-grid{ display:grid; gap:1rem;
-             grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); }
-.bento{ background:var(--card-bg); border-radius:14px;
-        box-shadow:0 2px 8px rgba(0,0,0,.06); padding:1rem; }
-.bento img{ height:160px; width:100%; object-fit:cover;
-            border-radius:10px; margin-bottom:.8rem; }
-.bento h3{ margin:.2rem 0 .6rem; color:var(--accent); font-size:1.1rem; }
+/* ---------- Fixed sidebar ---------- */
+.sidebar{
+  position:fixed;
+  top:0; left:0;
+  width:var(--sidebar-width);
+  height:100%;
+  padding:24px 18px 40px;
+  background:var(--card-bg);
+  box-shadow:var(--shadow);
+  overflow-y:auto;
+}
 
-.bento p        { margin:.3rem 0; line-height:1.4; font-size:.95rem; }
+.avatar{
+  width:100%;
+  border-radius:12px;
+  margin-bottom:1rem;
+}
 
-/* Accent bar beside each H3 in Experience */
+.sidebar h1{
+  margin:.3rem 0 .5rem;
+  font-size:1.35rem;
+  line-height:1.2;
+}
+
+.sidebar p{
+  margin:0 0 1rem;
+  font-size:.9rem;
+  color:#555;
+}
+
+/* ---------- Vertical nav panel ---------- */
+.nav-panel{
+  font-weight:600;
+  line-height:1.6;
+}
+.nav-panel a{
+  display:inline-block;          /* one link per line */
+  margin:.1rem 0;
+}
+
+/* ---------- Main scrolling column ---------- */
+.content{
+  margin-left:var(--sidebar-width);
+  max-width:calc(100% - var(--sidebar-width));
+  padding:0 32px;
+}
+
+/* ============================================================
+   BENTO GRID
+   ============================================================ */
+.bento-grid{
+  display:grid;
+  gap:1rem;
+  grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+}
+
+.bento{
+  background:var(--card-bg);
+  border-radius:14px;
+  box-shadow:var(--shadow);
+  padding:1rem;
+  display:flex;
+  flex-direction:column;
+}
+
+.bento img{
+  height:160px;
+  width:100%;
+  object-fit:cover;
+  border-radius:10px;
+  margin-bottom:.8rem;
+}
+
+.bento h3{
+  margin:.2rem 0 .6rem;
+  color:var(--accent);
+  font-size:1.1rem;
+}
+
+.bento p,
+.bento ul{
+  margin:.3rem 0;
+  line-height:1.4;
+  font-size:.95rem;
+}
+
+/* ============================================================
+   EXPERIENCE SECTION ACCENT BAR
+   ============================================================ */
 #experience h3::before{
   content:"";
   display:inline-block;
@@ -48,3 +130,28 @@ body{ background:var(--bg); color:#222; }
   vertical-align:middle;
 }
 
+/* ============================================================
+   MEDIA QUERIES
+   ============================================================ */
+/* ultra-wide monitors: bigger tiles */
+@media (min-width:1800px){
+  .bento-grid{
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+  }
+}
+
+/* phones / narrow tablets */
+@media (max-width:700px){
+  .sidebar{
+    position:static;
+    width:100%;
+    height:auto;
+    box-shadow:none;
+  }
+  .content{
+    margin:0;
+    max-width:100%;
+    padding:0 18px;
+  }
+  .layout{ flex-direction:column; }
+}
