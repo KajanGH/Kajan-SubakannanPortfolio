@@ -89,12 +89,15 @@
 <div class="bento">
   <img src="assets/images/projects/iris.jpg" alt="IRIS doorbell prototype">
   <h3>IRIS – Accessible Smart Doorbell</h3>
+  <p><em>Master's Research Project</em></p>
   <p><em>ML & Systems-Integration Lead · Master’s Research (Oct 2024 – Jun 2025)</em></p>
   <ul>
     <li>Inclusive hardware + AI design: Pi-based prototype delivers real-time visitor descriptions &amp; RFID ID in a weather-proof PETG housing.</li>
     <li><strong>&lt;1 s</strong> multimodal V-L pipeline (YOLOv8 + GPT-4o) proves low-latency edge analytics feasibility.</li>
     <li>Iterated tactile Braille controls, audio UX &amp; sustainability strategy with RNIB panels — met ISO 24920 accessibility spec.</li>
     <li>Authored a 200-page break-even &amp; LCA report translating architecture into a year-1 profitability case.</li>
+    <li>Achieved a First Class result (~79%)</li>
+    <li>Nominated for 2 UCL Centre of Engineering Awards for the 'Innovation Award' and 'Best Prototype'</li>
   </ul>
 </div>
 
@@ -102,7 +105,8 @@
 <div class="bento">
   <img src="assets/images/projects/qsm.gif" alt="QSM heat-map">
   <h3>Monotone Operator DL for QSM</h3>
-  <p><em>Undergrad Research · UCL Bioengineering (Sep 2023 – May 2024)</em> ·
+  <p><em>Undergraduate Final Research Project</em></p>
+  <p><em>Undergrad Researcher · UCL Bioengineering (Sep 2023 – May 2024)</em> ·
      <a href="assets/papers/monotone_qsm.pdf" target="_blank" rel="noopener">View&nbsp;paper (PDF)</a></p>
   <ul>
     <li>Developed an advanced Python QSM signal model to visualise brain susceptibility in 3-D, revolutionising MRI accuracy.</li>
@@ -110,6 +114,7 @@
     <li>Extended the MODL framework to full 3-D reconstruction with parallel computation in PyTorch.</li>
     <li>Tuned hyper-parameters, applied transfer learning &amp; cross-validation for maximal reconstruction fidelity.</li>
     <li>Compiled comprehensive documentation &amp; visuals for future conference presentation.</li>
+    <li>Achieved a First Class result (~80%)</li>
   </ul>
 </div>
 
